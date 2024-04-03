@@ -1,10 +1,10 @@
-import { ButtonOne, ButtonTwo } from "./Btn.styled";
+import { Button } from "./Btn.styled";
 
 export const Buttons = () => {
     return (
         <div>
-            <ButtonOne>See more</ButtonOne>
-            <ButtonTwo>Save</ButtonTwo>
+            <Button btnType={"primary"}>See more</Button>
+            <Button btnType={"outlined"}>Save</Button>
         </div>
     )
 }
